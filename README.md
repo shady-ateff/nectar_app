@@ -27,10 +27,10 @@ The app includes onboarding, authentication, and user-friendly forms to make sho
 
 ## 📱 Screenshots
 
-| Splash Screen | Login Page | Select Address |
-|---------------|-----------|----------------|
-| ![Splash](screenshots/splash.png) | ![Login](screenshots/login.png) | ![Address](screenshots/select_address.png) |
-|---------------|-----------|----------------|
+| Splash Screen | Login Page | Select Address | SignUp Page |
+|---------------|-----------|----------------|----------------|
+| ![Splash](screenshots/splash.png) | ![Login](screenshots/login.png) | ![Address](screenshots/address.png) | ![SignUp](screenshots/signup.png) |
+|---------------|-----------|----------------|----------------|
 
 
 

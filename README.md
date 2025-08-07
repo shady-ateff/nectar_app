@@ -59,8 +59,3 @@ lib/
 └── select_address_page.dart
 
 
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-  flutter_svg: ^2.2.0

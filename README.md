@@ -30,7 +30,6 @@ The app includes onboarding, authentication, and user-friendly forms to make sho
 | Splash Screen | Login Page | Select Address | SignUp Page |
 |---------------|-----------|----------------|----------------|
 | ![Splash](screenshots/splash.png) | ![Login](screenshots/login.png) | ![Address](screenshots/address.png) | ![SignUp](screenshots/signup.png) |
-|---------------|-----------|----------------|----------------|
 
 
 

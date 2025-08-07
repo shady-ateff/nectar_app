@@ -41,6 +41,7 @@ The app includes onboarding, authentication, and user-friendly forms to make sho
 
 ## 📂 Project Structure
 
+```
 lib/
 ├── components/
 │ ├── custom_button.dart
@@ -57,8 +58,6 @@ lib/
 ├── splash_screen.dart
 └── select_address_page.dart
 
-
-## 📦 Dependencies
 
 ```yaml
 dependencies:

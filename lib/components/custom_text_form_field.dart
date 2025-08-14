@@ -5,23 +5,28 @@ class CustomTextFormField extends StatelessWidget {
   final String label;
   final String hintText;
   final bool obscureText;
+  final TextInputType textInputType;
+  final String? Function(String?)? validator;
   const CustomTextFormField({
     super.key,
     required this.label,
     required this.hintText,
-    required this.obscureText,
+    required this.obscureText, 
+    required this.textInputType,
+    this.validator,
   });
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      keyboardType: TextInputType.emailAddress,
+      keyboardType: textInputType,
       style: const TextStyle(fontSize: 16, color: Colors.black87),
       strutStyle: const StrutStyle(
         forceStrutHeight: true,
         height: 1.5,
         fontStyle: FontStyle.normal,
       ),
+      validator: validator,
       obscureText: obscureText,
       decoration: InputDecoration(
         label: Text(

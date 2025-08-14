@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:nectar_app/components/custom_button.dart';
 import 'package:nectar_app/components/custom_text_form_field.dart';
+import 'package:nectar_app/core/extensions/navigation.dart';
+import 'package:nectar_app/feature/Home/main_page.dart';
 
 class SelectAddressPage extends StatelessWidget {
   const SelectAddressPage({super.key});
@@ -39,9 +41,12 @@ class SelectAddressPage extends StatelessWidget {
                 label: "Address",
                 hintText: "Cairo, Egypt",
                 obscureText: false,
+                textInputType: TextInputType.text,
               ),
               const SizedBox(height: 78),
-              CustomButton(text: "Submit", onPressed: () {}),
+              CustomButton(text: "Submit", onPressed: () {
+                replaceTo(context, MainPage());
+              }),
             ],
           ),
         ),

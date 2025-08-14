@@ -27,7 +27,7 @@ The app includes onboarding, authentication, and user-friendly forms to make sho
   
 ## 📱 App GIF
 | Nectar App |
-|---------------|
+|-------------------------------------------------------------------------------------------------|
 | ![Splash](screenshots/nectar.gif) |
 
 ## 📱 Screenshots

@@ -25,10 +25,9 @@ The app includes onboarding, authentication, and user-friendly forms to make sho
    - Address input  
    - Submit button
   
-## 📱 App GIF
-| Nectar App |
-|-------------------------------------------------------------------------------------------------|
-<img src="screenshots/nectar.gif" alt="Demo animation" width="600">
+## 📱 Nectar App GIF
+
+<img src="screenshots/nectar.gif" alt="Demo animation" width="300">
 
 ## 📱 Screenshots
 
